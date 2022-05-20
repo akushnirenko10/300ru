@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Тест: А я сейчас вам покажу...</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <img class="header__img" src="./images/pokazhu-luka.jpg" alt="а я вам сейчас покажу" />
+        <h1 class="header__title">Тест: А я сейчас вам покажу...</h1>
+      </div>
+    </header>
+    <main class="page">
+      <div class="container">
+        <form class="form" name="first">
+          <fieldset class="box first-form">
+            <legend class="box__title">А я сейчас вам покажу...</legend>
+            <label class="first-form__label">
+              <input
+                class="first-form__input"
+                type="radio"
+                name="first-form__input"
+                value="1"
+                required
+              />
+              откуда на Беларусь</label
+            >
+            <label class="first-form__label">
+              <input
+                class="first-form__input"
+                type="radio"
+                name="first-form__input"
+                value="0"
+                required
+              />
+              кто где соснул</label
+            >
+            <label class="first-form__label">
+              <input
+                class="first-form__input"
+                type="radio"
+                name="first-form__input"
+                value="0"
+                required
+              />
+              хuй</label
+            >
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box second-form">
+            <legend class="box__title">готовилось ...</legend>
+            <label class="second-form__item">
+              <span class="second-form__img-wrap">
+                <img src="./images/baby.jpg" alt="рагу" />
+              </span>
+              <span class="second-form__text-wrap">
+                <input type="radio" name="second-form__input" value="0" required />
+                рагу з росiйських немовлят
+              </span>
+            </label>
+            <label class="second-form__item">
+              <span class="second-form__img-wrap">
+                <img src="./images/putin.jpg" alt="хуйло" />
+              </span>
+              <span class="second-form__text-wrap">
+                <input type="radio" name="second-form__input" value="1" required />
+                нападение
+              </span>
+            </label>
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box third-form">
+            <legend class="box__title">и если бы за ___ до операции</legend>
+            <div class="third-form__inner">
+              <label class="third-form__label">
+                1
+                <input type="radio" name="third-form__input" value="0" />
+              </label>
+              <label class="third-form__label">
+                2
+                <input type="radio" name="third-form__input" value="0" />
+              </label>
+              <label class="third-form__label">
+                3
+                <input type="radio" name="third-form__input" value="0" />
+              </label>
+              <label class="third-form__label">
+                4
+                <input type="radio" name="third-form__input" value="0" />
+              </label>
+              <label class="third-form__label">
+                5
+                <input type="radio" name="third-form__input" value="0" />
+              </label>
+              <label class="third-form__label">
+                6
+                <input type="radio" name="third-form__input" value="1" />
+              </label>
+              <p>часов</p>
+            </div>
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box fourth-form">
+            <legend class="box__title">не был нанесен ...</legend>
+            <div class="fourth-form__inner">
+              <label class="fourth-form__label">
+                <input
+                  class="fourth-form__input"
+                  type="checkbox"
+                  name="fourth-form__input"
+                  value="0"
+                />
+                солнечный удар
+              </label>
+              <label class="fourth-form__label">
+                <input
+                  class="fourth-form__input"
+                  type="checkbox"
+                  name="fourth-form__input"
+                  value="0"
+                />
+                крем от загара
+              </label>
+              <label class="fourth-form__label">
+                <input
+                  class="fourth-form__input"
+                  type="checkbox"
+                  name="fourth-form__input"
+                  value="1"
+                />
+                превентивный удар
+              </label>
+              <label class="fourth-form__label">
+                <input
+                  class="fourth-form__input"
+                  type="checkbox"
+                  name="fourth-form__input"
+                  value="1"
+                />
+                по позициям
+              </label>
+            </div>
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box fifth-form">
+            <legend class="box__title">сколько было позиций?</legend>
+            <select class="fifth-form__select" name="fifth-form__input">
+              <option value="0">1 позиция</option>
+              <option value="0">69</option>
+              <option value="0">3 позировки</option>
+              <option value="1">4 позиции</option>
+            </select>
+
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box sixth-form">
+            <legend class="box__title">я щас покажу</legend>
+            <label class="sixth-form__label">
+              <input class="sixth-form__input" type="radio" name="sixth-form__input" value="0" />
+              хuй
+            </label>
+            <label class="sixth-form__label">
+              <input class="sixth-form__input" type="radio" name="sixth-form__input" value="0" />
+              жепу
+            </label>
+            <label class="sixth-form__label">
+              <input class="sixth-form__input" type="radio" name="sixth-form__input" value="1" />
+              карту привез
+            </label>
+
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box seventh-form">
+            <legend class="box__title">они бы атаковали наши войска</legend>
+            <div class="seventh-form__inner">
+              <p class="seventh-form__title">россия</p>
+              <p class="seventh-form__title">беларусь</p>
+            </div>
+            <label class="seventh-form__label">
+              1 позиция
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-1"
+                value="1"
+              />
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-1"
+                value="1"
+              />
+            </label>
+            <label class="seventh-form__label">
+              2 позиция
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-2"
+                value="1"
+              />
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-2"
+                value="1"
+              />
+            </label>
+            <label class="seventh-form__label">
+              3 позиция
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-3"
+                value="1"
+              />
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-3"
+                value="1"
+              />
+            </label>
+            <label class="seventh-form__label">
+              4 позиция
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-4"
+                value="1"
+              />
+              <input
+                class="seventh-form__input"
+                type="radio"
+                name="seventh-form__input-4"
+                value="1"
+              />
+            </label>
+
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box eighth-form">
+            <legend class="box__title">которые были</legend>
+            <label class="eighth-form__label">
+              <input class="eighth-form__input" type="radio" name="eighth-form__input" value="0" />
+              наху*ренные
+            </label>
+            <label class="eighth-form__label">
+              <input class="eighth-form__input" type="radio" name="eighth-form__input" value="0" />
+              аху*вшие
+            </label>
+            <label class="eighth-form__label">
+              <input class="eighth-form__input" type="radio" name="eighth-form__input" value="1" />
+              на учениях
+            </label>
+
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box ninth-form">
+            <legend class="box__title">поэтому не мы развязали</legend>
+            <div class="ninth-form__inner">
+              <label class="ninth-form__label">
+                <input
+                  class="ninth-form__input"
+                  type="checkbox"
+                  name="ninth-form__input"
+                  value="0"
+                />
+                шнурки
+              </label>
+              <label class="ninth-form__label">
+                <input
+                  class="ninth-form__input"
+                  type="checkbox"
+                  name="ninth-form__input"
+                  value="1"
+                />
+                эту войну
+              </label>
+              <label class="ninth-form__label">
+                <input
+                  class="ninth-form__input"
+                  type="checkbox"
+                  name="ninth-form__input"
+                  value="0"
+                />
+                спецоперацию
+              </label>
+              <label class="ninth-form__label">
+                <input
+                  class="ninth-form__input"
+                  type="checkbox"
+                  name="ninth-form__input"
+                  value="0"
+                />
+                геноцид
+              </label>
+              <label class="ninth-form__label">
+                <input
+                  class="ninth-form__input"
+                  type="checkbox"
+                  name="ninth-form__input"
+                  value="1"
+                />
+                у нас совесть чиста
+              </label>
+            </div>
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+
+          <fieldset class="box tenth-form">
+            <legend class="box__title">Путин хuйLo?</legend>
+            <div class="tenth-form__inner">
+              <label class="tenth-form__label">
+                <input
+                  class="tenth-form__input"
+                  type="checkbox"
+                  name="tenth-form__input"
+                  value="1"
+                />
+                Несомненно
+              </label>
+              <label class="tenth-form__label">
+                <input
+                  class="tenth-form__input"
+                  type="checkbox"
+                  name="tenth-form__input"
+                  value="1"
+                />
+                Звiсно
+              </label>
+              <label class="tenth-form__label">
+                <input
+                  class="tenth-form__input"
+                  type="checkbox"
+                  name="tenth-form__input"
+                  value="1"
+                />
+                А як же
+              </label>
+              <label class="tenth-form__label">
+                <input
+                  class="tenth-form__input"
+                  type="checkbox"
+                  name="tenth-form__input"
+                  value="1"
+                />
+                Ла-ла-ла
+              </label>
+            </div>
+            <button type="reset" class="form-btn">Сбросить</button>
+          </fieldset>
+          <button class="btn" type="button" onclick="foo1()">Отправить</button>
+        </form>
+      </div>
+    </main>
+    <script src="./js/summary.js"></script>
+  </body>
+</html>

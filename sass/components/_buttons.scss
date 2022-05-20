@@ -1,0 +1,32 @@
+.form-btn {
+    margin-left: auto;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(124, 124, 255);
+    cursor: pointer;
+    transition: color 250ms linear;
+
+    &:hover,
+    &:focus {
+        color: blue;
+    }
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    appearance: none;
+    border: none;
+    background-color: rgb(124, 124, 255);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 250ms linear;
+
+    &:hover,
+    &:focus {
+        background-color: blue;
+    }
+}
